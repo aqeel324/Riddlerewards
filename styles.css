@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #006400; /* Dark green color matching the flag theme */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #004d00; /* Slightly darker green for the border */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Container styling for quiz */
+.container {
+    background-color: #fff; /* White background for the quiz section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px; /* Maximum width of the container */
+}
+
+/* Question and result section */
+.question, .result {
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#nextButton {
+    background-color: #007BFF; /* Primary button color */
+    color: #fff;
+}
+
+#nextButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+#restartButton {
+    background-color: #28a745; /* Success button color */
+    color: #fff;
+}
+
+#restartButton:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+/* Wallet Button Styling */
+#walletButton {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#walletButton:hover {
+    background-color: #0056b3;
+}

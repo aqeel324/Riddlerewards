@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- AdMob script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-app-pub-5701738676708692~9234373757", // Your AdMob App ID
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>My Wallet</h1>
+        <div class="wallet-info">
+            <p>Your current balance: Rs. <span id="earningsAmount">0</span></p>
+            <button id="withdrawButton">Withdraw</button>
+            <div id="withdrawOptions" style="display:none;">
+                <p>Select withdrawal method:</p>
+                <button onclick="withdraw('Easypaisa')">Easypaisa</button>
+                <button onclick="withdraw('JazzCash')">JazzCash</button>
+                <button onclick="withdraw('Bank Transfer')">Bank Transfer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner Ad -->
+    <div style="text-align:center; margin-top: 20px;">
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-app-pub-5701738676708692"
+            data-ad-slot="3007080595"
+            data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <footer>
+        <p>Thank you for using <strong>Riddle Reward</strong>'s wallet. Keep track of your earnings and manage your withdrawals seamlessly. We appreciate your participation and look forward to bringing you more exciting challenges and rewards!</p>
+        <a href="index.html"><button id="backButton">Back to Game</button></a>
+    </footer>
+
+    <script src="wallet.js"></script>
+</body>
+</html>
